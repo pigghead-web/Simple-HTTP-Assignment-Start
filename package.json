@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "Simple HTTP Assignment Node Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigghead-web/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Justin Armstrong",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pigghead-web/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/pigghead-web/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
